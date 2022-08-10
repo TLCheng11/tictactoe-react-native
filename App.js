@@ -129,7 +129,7 @@ export default function App() {
           {rowThree}
         </Row>
       </View>
-      <TouchableHighlight style={styles.resetBtn} title="Reset" color="#841584" onPress={resetBoard}>
+      <TouchableHighlight style={styles.resetBtn} onPress={resetBoard}>
         <Text style={styles.btnText}>Reset</Text>
       </TouchableHighlight>
     </View>
