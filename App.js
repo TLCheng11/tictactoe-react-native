@@ -118,7 +118,7 @@ export default function App() {
           <Text style={styles.message}>{currentSide} Turn</Text>
         )
       }
-      <View style={styles.tttContainer}>
+      <View style={styles.tttBoard}>
         <Row>
           {rowOne}
         </Row>
@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     margin: 20,
   },
-  tttContainer: {
+  tttBoard: {
     height: 300,
     width: 300,
     justifyContent: "center",
